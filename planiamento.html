@@ -1,0 +1,151 @@
+<!--
+    Ca fofo vieste ver o codigo hâ? achaste hacker né!
+    Toma um chocolate como recompensa:
+
+      ___  ___  ___  ___  ___.---------------.
+    .'\__\'\__\'\__\'\__\'\__,`   .  ____ ___ \
+    |\/ __\/ __\/ __\/ __\/ _:\   |`.  \  \___ \
+     \\'\__\'\__\'\__\'\__\'\_`.__|""`. \  \___ \
+      \\/ __\/ __\/ __\/ __\/ __:                \
+       \\'\__\'\__\'\__\ \__\'\_;-----------------`
+        \\/   \/   \/   \/   \/ :                 |
+         \|______________________;________________|
+-->
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Organizar parties das boas">
+  <meta name="keywords" content="party , festas , o isec é o melhor , gosto de gelado , adoro coimbra , coisas ilicitas">
+  <meta name="author" content="João Gonçalves e Hugo Gonçalves">
+  <title>Planeamento | Hard&Parte</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+</head>
+
+<body id="3">
+  
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Hard<span class="highlight">&</span>Parte<span class="highlight">!</span></h1>
+      </div>
+      <nav id="navtop" class="hide">
+        <div id="buttonclose" class="hiden">X</div>
+        <div class="hiden"><br></div>
+        <li> <a href="caza.html">Cazinha</a></li>
+        <div class="hiden"><br></div>
+        <li> <a href="sobre.html">Ke isto pá?</a></li>
+        <div class="hiden"><br></div>
+        <li><a href="servizasa.html">Serviçada</a></li>
+        <div class="hiden"><br></div>
+        <li><a id="corrent">Contrata aqui</a></li>
+        <div class="hiden"><br></div>
+        <li><a id="troncar">Tronca Aqui </a></li>
+      </nav>
+      <div id="buttontoggle" class="hiden">=</div>
+      <div id="btnnav">
+      </div>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <div class="in">
+      <section class="box fullbox">
+        <p>Faz login para começares a planear a tua party!</p>
+    </div>
+    <div class="out">
+      <div class="container" id="form">
+        <h3 class="shadow">Preencha os dados para fazer o orçamento</h3>
+        <form action="">
+          <div class="box halfbox">
+            <p>Se te quiseres juntar a nós, estás só a alguns passos de distância:</p>
+            <input required name="firstname" type="text" placeholder="Primeiro Nome">
+            <input required name="lastname" type="text" placeholder="Último Nome">
+            <br><br>
+            <select required name="Sexo">
+              <option value=none>Selecione o seu Sexo</option>
+              <option value="0">Masculino</option>
+              <option value="1">Feminino</option>
+              <option value="2">Helicóptero</option>
+              <option value="3">Prefiro não dizer</option>
+            </select>
+            <br><br>
+            <input required name="Id" type="text" placeholder="Cartão de identificação">
+            <br><br>
+            <input required name="age" type="number" placeholder="Idade">
+            <br><br>
+            <input required name="email" width="200px" type="email" placeholder="Email">
+          </div>
+          <div class=" box halfbox">
+            <p>Insira os dados para a Festa:</p>
+            <input required name="morada" type="" title="Local onde o evento ira decorrer" placeholder="Morada">
+            <br><br>
+            Tipo de Festa:
+            <select type="Festa">
+              <option value="0">Aniversário</option>
+              <option value="1">Despedida de Solteiro</option>
+              <option value="2">Festa da Faculdade</option>
+              <option value="3">Festa de Arromba</option>
+            </select>
+            <br><br>
+            <input type="number" title="Numero de pesssoas" placeholder="Numero de pesssoas">
+            <br><br>
+            Dia da festa: <input type="date" title="Data do evento" placeholder="Data do evento">
+            <br><br>
+            Duração da festa: <input type="time" title="Tempo a decorrer" placeholder="Tempo a decorrer">
+            <br>
+          </div>
+          <div class="box fullbox">
+            <input name="reset" type="reset" value="Limpar">
+            <input name="submit" type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+
+
+  </section>
+
+  <!--log(in/out) box-->
+  <div id="loginbox" class="shadow">
+    <p id="closelogin">X</p>
+    <div class="in">
+      <h2>Troncação</h2>
+      <!--<input type="checkbox" checked id="check">Com conta <br><br>-->
+      <form id="login">
+        <div id="logdiv" class="">
+          <input required type="text" id="user" placeholder="Username"><br>
+          <input required  type="password" id="pass" placeholder="Password"><br><br>
+        </div>
+        <input type="submit" id="submitin" value="Troncar">
+        <br></br>
+      </form>
+    </div>
+    <div class="out">
+      <h2>Troncação</h2>
+      <form id="logout">
+        <div id="logdiv">
+          <p>Queres mesmo Destroncar?</p>
+        </div><input type="submit" id="submitout" value="Destroncar">
+        <br></br>
+      </form>
+    </div>
+  </div>
+
+  <!-- <footer class="footer">
+        <p>Hard&Parte por João Gonçalves e Hugo Marques, Copyright &copy; 2019</p>
+      </footer>-->
+  <script src="./scripts/jquery-3.2.1.js"></script>
+  <script src="./scripts/modernizr-custom.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
+
+<!-- Este trabalho foi feito com FOSS e um apoiante de FOSS
+  Aprenda mais sobre esta filosofia e modo de viver em 
+  https://en.wikipedia.org/wiki/Free_and_open-source_software  -->

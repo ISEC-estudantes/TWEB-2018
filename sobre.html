@@ -1,0 +1,159 @@
+<!--
+    Ca fofo vieste ver o codigo hâ? achaste hacker né!
+    Toma um chocolate como recompensa:
+
+      ___  ___  ___  ___  ___.---------------.
+    .'\__\'\__\'\__\'\__\'\__,`   .  ____ ___ \
+    |\/ __\/ __\/ __\/ __\/ _:\   |`.  \  \___ \
+     \\'\__\'\__\'\__\'\__\'\_`.__|""`. \  \___ \
+      \\/ __\/ __\/ __\/ __\/ __:                \
+       \\'\__\'\__\'\__\ \__\'\_;-----------------`
+        \\/   \/   \/   \/   \/ :                 |
+         \|______________________;________________|
+-->
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Organizar parties das boas">
+  <meta name="keywords" content="party , festas , o isec é o melhor , gosto de gelado , adoro coimbra , coisas ilicitas">
+  <meta name="author" content="João Gonçalves e Hugo Gonçalves">
+  <title>Sobre | Hard&Parte</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+</head>
+
+<body id="1">
+ 
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Hard<span class="highlight">&</span>Parte<span class="highlight">!</span></h1>
+      </div>
+      <nav id="navtop" class="hide">
+        <div id="buttonclose" class="hiden">X</div>
+        <div class="hiden"><br></div>
+        <li> <a href="caza.html">Cazinha</a></li>
+        <div class="hiden"><br></div>
+        <li> <a id="corrent">Ke isto pá?</a></li>
+        <div class="hiden"><br></div>
+        <li><a href="servizasa.html">Serviçada</a></li>
+        <div class="hiden"><br></div>
+        <li><a href="planiamento.html">Contrata aqui</a></li>
+        <div class="hiden"><br></div>
+        <li><a id="troncar">Tronca Aqui </a></li>
+      </nav>
+      <div id="buttontoggle" class="hiden">=</div>
+      <div id="btnnav">
+      </div>
+    </div>
+  </header>
+
+  <section id="up">
+    <div class="container">
+      <h1 class="shadow halfbox leftbox">Sobre a Moçada </h1>
+      <div class="box halfbox leftbox">
+        <p>
+          Ativos à quase uma década, somos a maior e melhor coorporativa internacional de organização de festas.
+          Tudo começou quando 2 jovens(Hugo e João) queriam fazer uma festa de arromba mas não tinham meios nem
+          recursos para tal e foi então que tiveram a brilhante ideia de criar uma empresa, na qual outras pessoas
+          como eles pudessem fazer uma party asap e com tudo o que há de melhor.
+          E assim nasceu a Hard&party ;)
+        </p>
+      </div>
+
+      <div class="box halfbox rightbox">
+        <h3>Localização</h3>
+        <p>151, Rua do Brasil 1, Coimbra </p>
+      </div>
+
+      <div class="box halfbox rightbox">
+        <h3>Contactos</h3>
+        <p>
+          917761123 <br>
+          <a class="email" href="mailto:supporte@hardparte.pt" target="_top">supporte@hardparte.pt</a>
+        </p>
+      </div>
+      <div class="in">
+        <div class="fullbox box">
+          <p>Queres entrar na equipa <a class="troncar">clica aqui</a> para fazeres login e te registrares!</p>
+        </div>
+      </div>
+      <div class="out">
+        <form action="">
+          <div class="box fullbox">
+            <p>Insira os seus dados pessoais para se juntar a nós:</p>
+            <input required name="firstname" type="text" placeholder="Primeiro Nome">
+            <input required name="lastname" type="text" placeholder="Último Nome">
+            <br><br>
+            <select required name="Sexo">
+              <option value=none>Selecione o seu Sexo</option>
+              <option value="0">Masculino</option>
+              <option value="1">Feminino</option>
+              <option value="2">Outro</option>
+              <option value="3">Helicóptero</option>
+              <option value="4">Prefiro não dizer</option>
+            </select>
+            <br><br>
+            <input required name="Id" type="text" placeholder="Cartão de identificação">
+            <br><br>
+            <input required name="age" type="number" placeholder="Idade">
+            <br><br>
+            <input required name="email" width="200px" type="email" placeholder="Email">
+            <br><br>
+            <input type="reset" value="Limpar"><input type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+  </section>
+  <div id="slideshowimg">
+    <img src="./img/slideshow/img1.png" alt="" class="active" />
+    <img src="./img/slideshow/img2.png" alt="" />
+    <img src="./img/slideshow/img3.png" alt="" />
+    <img src="./img/slideshow/img4.png" alt="" />
+    <img src="./img/slideshow/img5.png" alt="" />
+  </div>
+
+  <!--log(in/out) box-->
+  <div id="loginbox" class="shadow">
+    <p id="closelogin">X</p>
+    <div class="in">
+      <h2>Troncação</h2>
+      <!--<input type="checkbox" checked id="check">Com conta <br><br>-->
+      <form id="login">
+        <div id="logdiv" class="">
+          <input required  type="text" id="user" placeholder="Username"><br>
+          <input required  type="password" id="pass" placeholder="Password"><br><br>
+        </div>
+        
+        <input type="submit" id="submitin" value="Troncar">
+        <br></br>
+      </form>
+    </div>
+    <div class="out">
+      <h2>Troncação</h2>
+      <form id="logout">
+        <div id="logdiv">
+          <p>Queres mesmo Destroncar?</p>
+        </div><input type="submit" id="submitout" value="Destroncar">
+        <br></br>
+      </form>
+    </div>
+  </div>
+
+  <!-- <footer class="footer">
+        <p>Hard&Parte por João Gonçalves e Hugo Marques, Copyright &copy; 2019</p>
+      </footer>-->
+  <script src="./scripts/jquery-3.2.1.js"></script>
+  <script src="./scripts/modernizr-custom.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
+
+
+<!-- Este trabalho foi feito com FOSS e um apoiante de FOSS
+  Aprenda mais sobre esta filosofia e modo de viver em 
+  https://en.wikipedia.org/wiki/Free_and_open-source_software  -->
